@@ -215,7 +215,7 @@ function App() {
                         <li 
                           key={i} 
                           className="bg-blue-50 p-2 rounded text-sm relative group cursor-help"
-                          onMouseEnter={() => setActiveTooltip(`cyber-${idx}-${i}`)}
+                          onMouseEnter={() => setActiveTooltip(`cyber-${idx}-${i}` as any)}
                           onMouseLeave={() => setActiveTooltip(null)}
                         >
                           {item.term}
