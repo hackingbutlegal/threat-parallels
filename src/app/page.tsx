@@ -196,7 +196,7 @@ function App() {
           </h2>
           
           <p className="text-sm text-gray-600 italic text-center mb-4">
-            Created by <span className="font-semibold">Jackie Singh</span>
+            Created by <span className="font-semibold">Jackie Singh <a href="https://github.com/hackingbutlegal/threat-parallels">(Github)</a></span>
           </p>
 
           <div className="space-y-8">
