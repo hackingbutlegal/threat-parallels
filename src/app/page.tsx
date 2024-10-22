@@ -66,45 +66,45 @@ function App() {
       ]
     },
     {
-      title: "Evasion Techniques",
-      icon: <Eye className="w-6 h-6" />,
-      cyber: [
-        {
-          term: "Polymorphic Code",
-          definition: "Code that changes its signature to avoid detection"
-        },
-        {
-          term: "Legitimate Facades",
-          definition: "Malware disguised as legitimate software"
-        },
-        {
-          term: "Timing-based Attacks",
-          definition: "Attacks coordinated to specific times for maximum impact"
-        },
-        {
-          term: "Cell Structure",
-          definition: "Compartmentalized operations to minimize exposure"
-        }
-      ],
-      disinfo: [
-        {
-          term: "Content Mutation",
-          definition: "Slightly altering content to avoid fact-checking"
-        },
-        {
-          term: "False Authenticity",
-          definition: "Mimicking legitimate news formats and styles"
-        },
-        {
-          term: "Coordinated Timing",
-          definition: "Synchronizing posts for maximum viral potential"
-        },
-        {
-          term: "Compartmentalization",
-          definition: "Isolating different parts of operations to avoid detection"
-        }
-      ]
+  title: "Evasion Techniques",
+  icon: <Eye className="w-6 h-6" />,
+  cyber: [
+    {
+      term: "Polymorphic Code",
+      definition: "Malware that constantly changes its code signature while maintaining functionality to evade detection"
     },
+    {
+      term: "Process Injection",
+      definition: "Malware hiding within legitimate processes to appear as normal system activity"
+    },
+    {
+      term: "Anti-Analysis Techniques",
+      definition: "Methods to detect and evade sandboxes, debuggers, and analysis tools"
+    },
+    {
+      term: "Fileless Execution",
+      definition: "Operating entirely in memory to avoid file-based detection mechanisms"
+    }
+  ],
+  disinfo: [
+    {
+      term: "Content Mutation",
+      definition: "Continuously modifying content while maintaining core narrative to evade automated detection"
+    },
+    {
+      term: "Narrative Injection",
+      definition: "Embedding false narratives within legitimate discussions and trusted sources"
+    },
+    {
+      term: "Anti-Verification Methods",
+      definition: "Techniques to complicate fact-checking and avoid automated detection systems"
+    },
+    {
+      term: "Ephemeral Campaigns",
+      definition: "Operating through temporary, disposable content that leaves minimal traces"
+    }
+  ]
+},
     {
       title: "Targeting Methods",
       icon: <Shield className="w-6 h-6" />,
