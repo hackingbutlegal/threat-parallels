@@ -10,39 +10,8 @@ The visualization serves to:
 - Bridge the gap between technical and social engineering attack vectors
 - Provide a framework for analyzing hybrid threats
 
-## Key Concepts Mapped
-
-### 1. Distribution Infrastructure
-Shows how both malware and disinformation leverage:
-- Automated distribution networks (botnets/sockpuppets)
-- Dynamic infrastructure generation
-- Platform exploitation
-- Influencer dynamics
-- Multi-level spreading mechanisms
-
-### 2. Evasion Techniques
-Demonstrates parallel approaches to avoiding detection:
-- Polymorphic content (code mutation/content variation)
-- Legitimate façades
-- Timing-based deployments
-- Compartmentalized operations
-
-### 3. Targeting Methods
-Maps similarities in:
-- Social engineering approaches
-- Trust exploitation
-- A/B testing of payloads
-- Demographic profiling
-
-### 4. Persistence Mechanisms
-Illustrates how both maintain long-term presence through:
-- Backup communication channels
-- Deep network embedding
-- Resilient infrastructure
-- Sustained presence
-
 ## Technical Implementation
-- Built with React and Vite
+- Built with React and Next.js
 - Uses Tailwind CSS for styling
 - Interactive tooltips for detailed information
 - Responsive design for various screen sizes
@@ -96,12 +65,14 @@ Possible enhancements or additions:
 
 ## Credits
 - Icons: Lucide React
-- Framework: React + Vite
+- Framework: React + Next.js
 - Styling: Tailwind CSS
 
 ## License
 MIT License - Feel free to use, modify, and distribute with attribution.
 Copyright Jacqueline Singh, 2024
+
+This project is part of ongoing research into threat actor methodologies and parallel patterns in cyber and information operations. When using or referencing this work, please cite: Singh, J. (2024). Threat Actor Parallels Visualization. GitHub. https://github.com/hackingbutlegal/threat-parallels
 
 ---
 
