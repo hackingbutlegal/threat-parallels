@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Threat Actor Parallels Visualization
 
-## Getting Started
+## Overview
+This project visualizes the striking parallels between cyber attack infrastructure and disinformation operations. It maps out how techniques, tactics, and procedures (TTPs) used in malware distribution mirror those used in spreading misleading information.
 
-First, run the development server:
+## Purpose
+The visualization serves to:
+- Illuminate how threat actors adapt similar strategies across different domains
+- Help security professionals understand emerging threats through pattern recognition
+- Bridge the gap between technical and social engineering attack vectors
+- Provide a framework for analyzing hybrid threats
+
+## Key Concepts Mapped
+
+### 1. Distribution Infrastructure
+Shows how both malware and disinformation leverage:
+- Automated distribution networks (botnets/sockpuppets)
+- Dynamic infrastructure generation
+- Platform exploitation
+- Influencer dynamics
+- Multi-level spreading mechanisms
+
+### 2. Evasion Techniques
+Demonstrates parallel approaches to avoiding detection:
+- Polymorphic content (code mutation/content variation)
+- Legitimate façades
+- Timing-based deployments
+- Compartmentalized operations
+
+### 3. Targeting Methods
+Maps similarities in:
+- Social engineering approaches
+- Trust exploitation
+- A/B testing of payloads
+- Demographic profiling
+
+### 4. Persistence Mechanisms
+Illustrates how both maintain long-term presence through:
+- Backup communication channels
+- Deep network embedding
+- Resilient infrastructure
+- Sustained presence
+
+## Technical Implementation
+- Built with React and Vite
+- Uses Tailwind CSS for styling
+- Interactive tooltips for detailed information
+- Responsive design for various screen sizes
+- Lucide icons for visual representation
+
+## Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/yourusername/threat-parallels.git
+
+# Install dependencies
+cd threat-parallels
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
+- Hover over any item to see detailed definitions
+- Compare cyber and disinformation tactics side by side
+- Use for training, analysis, or threat modeling
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contributing
+Contributions are welcome! Areas for expansion include:
+- Additional parallel patterns
+- New categories of comparison
+- Enhanced visualizations
+- Case studies demonstrating parallels
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Educational Use
+This tool can be valuable for:
+- Security awareness training
+- Threat analysis workshops
+- Pattern recognition exercises
+- Cross-domain security education
 
-## Learn More
+## Future Development
+Possible enhancements or additions:
+- Integration with DISARM framework
+- Interactive case studies
+- Temporal analysis of evolving patterns
+- Counter-measure mapping
 
-To learn more about Next.js, take a look at the following resources:
+## Credits
+- Icons: Lucide React
+- Framework: React + Vite
+- Styling: Tailwind CSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
+MIT License - Feel free to use, modify, and distribute with attribution.
+Copyright Jacqueline Singh, 2024
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Note: This project is for educational purposes and aims to improve understanding of threat actor methodologies. It should be used responsibly and in accordance with applicable laws and regulations.*
