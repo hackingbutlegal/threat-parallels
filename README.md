@@ -3,6 +3,8 @@
 ## Overview
 This project visualizes the striking parallels between cyber attack infrastructure and disinformation operations. It maps out how techniques, tactics, and procedures (TTPs) used in malware distribution mirror those used in spreading misleading information.
 
+*Note: This project is for educational purposes and aims to improve understanding of threat actor methodologies.*
+
 ## Purpose
 The visualization serves to:
 - Illuminate how threat actors adapt similar strategies across different domains
@@ -75,5 +77,3 @@ Copyright Jacqueline Singh, 2024
 This project is part of ongoing research into threat actor methodologies and parallel patterns in cyber and information operations. When using or referencing this work, please cite: Singh, J. (2024). Threat Actor Parallels Visualization. GitHub. https://github.com/hackingbutlegal/threat-parallels
 
 ---
-
-*Note: This project is for educational purposes and aims to improve understanding of threat actor methodologies. It should be used responsibly and in accordance with applicable laws and regulations.*
